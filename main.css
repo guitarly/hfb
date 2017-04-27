@@ -1,10 +1,11 @@
 /*****************************************
 *   General
 *****************************************/
+
 body {
-  margin-top:20px;
+  margin-top: 20px;
   font-family: Osaka;
-  background-color: ghostwhite;
+  background-color: MEDIUMVIOLETRED;
   color: inherit;
 }
 
@@ -13,11 +14,11 @@ h2, h3, h5 {
 }
 
 h4 {
-  text-align:justify;
+  text-align: justify;
 }
 
 button {
-  padding:10px;
+  padding: 10px;
 }
 
 li {
@@ -31,17 +32,19 @@ a {
 }
 
 #container {
-  max-width:80%;
+  max-width: 80%;
   margin: auto;
 }
+
 
 /*****************************************
 *   Happy Fun Ball
 *****************************************/
+
 #happy-fun-ball {
   min-width: 20vmax;
   height: 20vmax;
-  border-radius:100%;
+  border-radius: 100%;
   background-color: #FF8E00;
   text-align: left;
   background-image: radial-gradient(circle, #ffcd8d, orange);
@@ -49,20 +52,23 @@ a {
   text-align: center;
   vertical-align: middle;
 }
-#happy-fun-ball p{
+
+#happy-fun-ball p {
   line-height: 20vmax;
   color: rgba(255, 255, 255, 0.1);
 }
-#happy-fun-ball:hover{
-    background-image: radial-gradient(circle, orange, #ffcd8d);
-      box-shadow: 4px 4px 8px white, -4px -4px 8px white, 4px -4px 8px white, -4px 4px 8px white;
+
+#happy-fun-ball:hover {
+  background-image: radial-gradient(circle, orange, #ffcd8d);
+  box-shadow: 4px 4px 8px white, -4px -4px 8px white, 4px -4px 8px white, -4px 4px 8px white;
 }
 
 #happy-fun-ball:hover p {
   color: rgba( 0, 0, 0, 0);
 }
+
 #special-container {
-  display:inline-block;
+  display: inline-block;
 }
 
 h1 {
@@ -71,11 +77,11 @@ h1 {
   font-family: 'Marker Felt';
   position: absolute;
   left: 35vmax;
-  top: 25px;
+  top: 24px;
   font-size: 8vmax;
   text-align: left;
 }
 
 .price {
-  color: orange;
+  color: red;
 }
